@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Forbidden Runes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
   </head>
+  <script>
+    function handleClickItem () {
+      console.log("hello in click item")
+      alert("Crom is currently out of stock.")
+    }
+  </script>
   <style>
     body {
       font-family: Courier;
@@ -82,6 +88,88 @@
         &nbsp;&nbsp;&nbsp;&nbsp;
         Crom is working hard. Check back later.
       </marquee>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <section>
+        <h1>Crom's Store</h1>
+        <div class="store-wrapper">
+          <div class="item-wrapper" onclick="handleClickItem()">
+            <div class="item-header">Broad Sword</div>
+            <img src="./images/broadsword.jpg"/>
+            <div class="item-description">For real warriors only.</div>
+            <div class="price-wrapper">
+              <div class="price-strike">$160</div>
+              <div class="price">$155.90</div>
+            </div>
+            <div class="out-of-stock">Out of Stock</div>
+          </div>
+          <div class="item-wrapper" onclick="handleClickItem()">
+            <div class="item-header">Chaos Swords</div>
+            <img src="./images/chaosswords.jpg"/>
+            <div class="item-description">Careful with these.</div>
+            <div class="price-wrapper">
+              <div class="price-strike">$200</div>
+              <div class="price">$199.90</div>
+            </div>
+            <div class="out-of-stock">Out of Stock</div>
+          </div>
+          <div class="item-wrapper" onclick="handleClickItem()">
+            <div class="item-header">Crom</div>
+            <img src="./images/connan.jpg"/>
+            <div class="item-description">Rent my services for your campaigns in battle or instagram.</div>
+            <div class="price-wrapper">
+              <div class="price-strike">$1K</div>
+              <div class="price-strike">$2K</div>
+              <div class="price">$2,500</div>
+            </div>
+            <div class="out-of-stock">Out of Stock</div>
+          </div>
+          <div class="item-wrapper" onclick="handleClickItem()">
+            <div class="item-header">Warrior</div>
+            <img src="./images/warriors.png"/>
+            <div class="item-description">Rent my friend's services for your campaign.</div>
+            <div class="price-wrapper">
+<!--              <div class="price-strike">$560</div>-->
+              <div class="price">$500</div>
+            </div>
+            <div class="out-of-stock">Out of Stock</div>
+          </div>
+          <div class="item-wrapper" onclick="handleClickItem()">
+            <div class="item-header">Sympathy Candle</div>
+            <img src="./images/sympathycandle.png"/>
+            <div class="item-description">For your tears. And my wive's Etsy Store.</div>
+            <div class="price-wrapper">
+              <div class="price-strike">$10</div>
+              <div class="price">please take</div>
+            </div>
+            <div class="out-of-stock">Out of Stock</div>
+          </div>
+          <div class="item-wrapper" onclick="handleClickItem()">
+            <div class="item-header">Strong Door</div>
+            <img src="./images/strongdoor.png"/>
+            <div class="item-description">For your castle.</div>
+            <div class="price-wrapper">
+              <div class="price-strike">$200</div>
+              <div class="price">$230.90</div>
+            </div>
+            <div class="out-of-stock">Out of Stock</div>
+          </div>
+          <br class="clear-left">
+          <div class="store-footer clear-left">
+            <div class="footer-item dummy">Proceed To Checkout</div>
+            <div class="footer-item">
+              You have 0 items in your cart.
+            </div>
+            <div class="proceed-to-checkout-btn footer-item">
+              <u>Proceed To Checkout</u>
+            </div>
+          </div>
+
+        </div>
+      </section>
       <br>
       <br>
       <br>
